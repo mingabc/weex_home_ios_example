@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AE9C0C55FCF1ADE29AC9462 /* libPods-FN_iOS_Weex_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 644107247410FEBB090239E4 /* libPods-FN_iOS_Weex_Demo.a */; };
+		CC16086222ADEB09001686F4 /* FNLoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CC16086122ADEB09001686F4 /* FNLoginModule.m */; };
+		CC16086622ADEE3B001686F4 /* FNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC16086422ADEE3B001686F4 /* FNLoginViewController.m */; };
+		CC16086722ADEE3B001686F4 /* FNLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC16086522ADEE3B001686F4 /* FNLoginViewController.xib */; };
+		CC476A1822AE932600C492F6 /* parking_TyingCard.png in Resources */ = {isa = PBXBuildFile; fileRef = CC476A1722AE932600C492F6 /* parking_TyingCard.png */; };
+		CC85544922A8AC2F0069A148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85544022A8AC2F0069A148 /* AppDelegate.m */; };
+		CC85544A22A8AC2F0069A148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC85544222A8AC2F0069A148 /* Assets.xcassets */; };
+		CC85544C22A8AC2F0069A148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC85544522A8AC2F0069A148 /* Main.storyboard */; };
+		CC85544D22A8AC2F0069A148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85544722A8AC2F0069A148 /* main.m */; };
+		CC85545222A8AC970069A148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85545022A8AC970069A148 /* ViewController.m */; };
+		CC85545522A8ACA60069A148 /* RootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC85545422A8ACA60069A148 /* RootTableViewCell.m */; };
+		CC9E9B7B22B48F580009BBDF /* FNNetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E9B7A22B48F580009BBDF /* FNNetworkHandler.m */; };
+		CC9E9B7E22B4D7EE0009BBDF /* FNThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9E9B7D22B4D7EE0009BBDF /* FNThreadSafeDictionary.m */; };
+		CCB735B522AE8D1F0026E791 /* FNCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB735B422AE8D1F0026E791 /* FNCustomView.m */; };
+		CCB735B822AE8E080026E791 /* FNCustomComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB735B722AE8E080026E791 /* FNCustomComponent.m */; };
+		CCEA8F1B22B9C063006C8242 /* FNRouteModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEA8F1A22B9C063006C8242 /* FNRouteModule.m */; };
+		CCEA8F1F22B9C598006C8242 /* FNWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEA8F1D22B9C598006C8242 /* FNWebViewController.m */; };
+		CCEA8F2022B9C598006C8242 /* FNWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCEA8F1E22B9C598006C8242 /* FNWebViewController.xib */; };
+		CCED6B8B22A8E00200DE6430 /* WXImgLoaderDefaultImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = CCED6B8822A8E00200DE6430 /* WXImgLoaderDefaultImpl.m */; };
+		CCED6B8C22A8E00200DE6430 /* WeexSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCED6B8A22A8E00200DE6430 /* WeexSDKManager.m */; };
+		CCED6B9122A8E1FE00DE6430 /* WeexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCED6B8F22A8E1FE00DE6430 /* WeexViewController.m */; };
+		CCED6B9222A8E1FE00DE6430 /* WeexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCED6B9022A8E1FE00DE6430 /* WeexViewController.xib */; };
+		CCF27FA122B890DB00B52340 /* FNAppInfoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF27FA022B890DB00B52340 /* FNAppInfoModule.m */; };
+		CCF27FA422B892EC00B52340 /* FNUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF27FA322B892EC00B52340 /* FNUserInfo.m */; };
+		CCF27FA722B893BF00B52340 /* FNUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF27FA622B893BF00B52340 /* FNUser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		644107247410FEBB090239E4 /* libPods-FN_iOS_Weex_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FN_iOS_Weex_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F4637971757278CEDEC68F /* Pods-FN_iOS_Weex_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FN_iOS_Weex_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FN_iOS_Weex_Demo/Pods-FN_iOS_Weex_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		A33A4A2659F70812DC8A22BC /* Pods-FN_iOS_Weex_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FN_iOS_Weex_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FN_iOS_Weex_Demo/Pods-FN_iOS_Weex_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		CC16086022ADEB09001686F4 /* FNLoginModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNLoginModule.h; sourceTree = "<group>"; };
+		CC16086122ADEB09001686F4 /* FNLoginModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNLoginModule.m; sourceTree = "<group>"; };
+		CC16086322ADEE3B001686F4 /* FNLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNLoginViewController.h; sourceTree = "<group>"; };
+		CC16086422ADEE3B001686F4 /* FNLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNLoginViewController.m; sourceTree = "<group>"; };
+		CC16086522ADEE3B001686F4 /* FNLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FNLoginViewController.xib; sourceTree = "<group>"; };
+		CC476A1722AE932600C492F6 /* parking_TyingCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parking_TyingCard.png; sourceTree = "<group>"; };
+		CC85542422A8A6580069A148 /* FN_iOS_Weex_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FN_iOS_Weex_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC85543F22A8AC2F0069A148 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC85544022A8AC2F0069A148 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC85544222A8AC2F0069A148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC85544622A8AC2F0069A148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC85544722A8AC2F0069A148 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC85545022A8AC970069A148 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC85545122A8AC970069A148 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC85545322A8ACA60069A148 /* RootTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTableViewCell.h; sourceTree = "<group>"; };
+		CC85545422A8ACA60069A148 /* RootTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableViewCell.m; sourceTree = "<group>"; };
+		CC9E9B7922B48F580009BBDF /* FNNetworkHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNNetworkHandler.h; sourceTree = "<group>"; };
+		CC9E9B7A22B48F580009BBDF /* FNNetworkHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNNetworkHandler.m; sourceTree = "<group>"; };
+		CC9E9B7C22B4D7EE0009BBDF /* FNThreadSafeDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNThreadSafeDictionary.h; sourceTree = "<group>"; };
+		CC9E9B7D22B4D7EE0009BBDF /* FNThreadSafeDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNThreadSafeDictionary.m; sourceTree = "<group>"; };
+		CCB735B322AE8D1F0026E791 /* FNCustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNCustomView.h; sourceTree = "<group>"; };
+		CCB735B422AE8D1F0026E791 /* FNCustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNCustomView.m; sourceTree = "<group>"; };
+		CCB735B622AE8E080026E791 /* FNCustomComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNCustomComponent.h; sourceTree = "<group>"; };
+		CCB735B722AE8E080026E791 /* FNCustomComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNCustomComponent.m; sourceTree = "<group>"; };
+		CCEA8F1922B9C063006C8242 /* FNRouteModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNRouteModule.h; sourceTree = "<group>"; };
+		CCEA8F1A22B9C063006C8242 /* FNRouteModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNRouteModule.m; sourceTree = "<group>"; };
+		CCEA8F1C22B9C598006C8242 /* FNWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNWebViewController.h; sourceTree = "<group>"; };
+		CCEA8F1D22B9C598006C8242 /* FNWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNWebViewController.m; sourceTree = "<group>"; };
+		CCEA8F1E22B9C598006C8242 /* FNWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FNWebViewController.xib; sourceTree = "<group>"; };
+		CCED6B8522A8DD1100DE6430 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCED6B8722A8E00200DE6430 /* WeexSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeexSDKManager.h; sourceTree = "<group>"; };
+		CCED6B8822A8E00200DE6430 /* WXImgLoaderDefaultImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXImgLoaderDefaultImpl.m; sourceTree = "<group>"; };
+		CCED6B8922A8E00200DE6430 /* WXImgLoaderDefaultImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXImgLoaderDefaultImpl.h; sourceTree = "<group>"; };
+		CCED6B8A22A8E00200DE6430 /* WeexSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeexSDKManager.m; sourceTree = "<group>"; };
+		CCED6B8D22A8E03300DE6430 /* DemoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDefine.h; sourceTree = "<group>"; };
+		CCED6B8E22A8E1FE00DE6430 /* WeexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeexViewController.h; sourceTree = "<group>"; };
+		CCED6B8F22A8E1FE00DE6430 /* WeexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeexViewController.m; sourceTree = "<group>"; };
+		CCED6B9022A8E1FE00DE6430 /* WeexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeexViewController.xib; sourceTree = "<group>"; };
+		CCF27F9F22B890DB00B52340 /* FNAppInfoModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNAppInfoModule.h; sourceTree = "<group>"; };
+		CCF27FA022B890DB00B52340 /* FNAppInfoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNAppInfoModule.m; sourceTree = "<group>"; };
+		CCF27FA222B892EC00B52340 /* FNUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNUserInfo.h; sourceTree = "<group>"; };
+		CCF27FA322B892EC00B52340 /* FNUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNUserInfo.m; sourceTree = "<group>"; };
+		CCF27FA522B893BF00B52340 /* FNUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNUser.h; sourceTree = "<group>"; };
+		CCF27FA622B893BF00B52340 /* FNUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNUser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC85542122A8A6580069A148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE9C0C55FCF1ADE29AC9462 /* libPods-FN_iOS_Weex_Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72709B3BB201F516B853472 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67F4637971757278CEDEC68F /* Pods-FN_iOS_Weex_Demo.debug.xcconfig */,
+				A33A4A2659F70812DC8A22BC /* Pods-FN_iOS_Weex_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB4ED04EB5574BEBC4C7E3F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644107247410FEBB090239E4 /* libPods-FN_iOS_Weex_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC85541B22A8A6580069A148 = {
+			isa = PBXGroup;
+			children = (
+				CC85542622A8A6580069A148 /* FN_iOS_Weex_Demo */,
+				CC85542522A8A6580069A148 /* Products */,
+				A72709B3BB201F516B853472 /* Pods */,
+				CB4ED04EB5574BEBC4C7E3F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC85542522A8A6580069A148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC85542422A8A6580069A148 /* FN_iOS_Weex_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC85542622A8A6580069A148 /* FN_iOS_Weex_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CC85543E22A8AC2F0069A148 /* Application */,
+				CC85543D22A8AC2F0069A148 /* Module */,
+				CC85544122A8AC2F0069A148 /* Resource */,
+			);
+			path = FN_iOS_Weex_Demo;
+			sourceTree = "<group>";
+		};
+		CC85543D22A8AC2F0069A148 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				CC85545622A8C19E0069A148 /* Weex */,
+				CC85544F22A8AC970069A148 /* Root */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		CC85543E22A8AC2F0069A148 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CC85543F22A8AC2F0069A148 /* AppDelegate.h */,
+				CC85544022A8AC2F0069A148 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CC85544122A8AC2F0069A148 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CC476A1722AE932600C492F6 /* parking_TyingCard.png */,
+				CCED6B8D22A8E03300DE6430 /* DemoDefine.h */,
+				CCED6B8522A8DD1100DE6430 /* Info.plist */,
+				CC85544222A8AC2F0069A148 /* Assets.xcassets */,
+				CC85544522A8AC2F0069A148 /* Main.storyboard */,
+				CC85544722A8AC2F0069A148 /* main.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CC85544F22A8AC970069A148 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CC85545122A8AC970069A148 /* ViewController.h */,
+				CC85545022A8AC970069A148 /* ViewController.m */,
+				CC85545322A8ACA60069A148 /* RootTableViewCell.h */,
+				CC85545422A8ACA60069A148 /* RootTableViewCell.m */,
+				CCED6B8E22A8E1FE00DE6430 /* WeexViewController.h */,
+				CCED6B8F22A8E1FE00DE6430 /* WeexViewController.m */,
+				CCED6B9022A8E1FE00DE6430 /* WeexViewController.xib */,
+				CC16086322ADEE3B001686F4 /* FNLoginViewController.h */,
+				CC16086422ADEE3B001686F4 /* FNLoginViewController.m */,
+				CC16086522ADEE3B001686F4 /* FNLoginViewController.xib */,
+				CCB735B322AE8D1F0026E791 /* FNCustomView.h */,
+				CCB735B422AE8D1F0026E791 /* FNCustomView.m */,
+				CCB735B622AE8E080026E791 /* FNCustomComponent.h */,
+				CCB735B722AE8E080026E791 /* FNCustomComponent.m */,
+				CCF27FA222B892EC00B52340 /* FNUserInfo.h */,
+				CCF27FA322B892EC00B52340 /* FNUserInfo.m */,
+				CCF27FA522B893BF00B52340 /* FNUser.h */,
+				CCF27FA622B893BF00B52340 /* FNUser.m */,
+				CCEA8F1C22B9C598006C8242 /* FNWebViewController.h */,
+				CCEA8F1D22B9C598006C8242 /* FNWebViewController.m */,
+				CCEA8F1E22B9C598006C8242 /* FNWebViewController.xib */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CC85545622A8C19E0069A148 /* Weex */ = {
+			isa = PBXGroup;
+			children = (
+				CCED6B8722A8E00200DE6430 /* WeexSDKManager.h */,
+				CCED6B8A22A8E00200DE6430 /* WeexSDKManager.m */,
+				CCED6B8922A8E00200DE6430 /* WXImgLoaderDefaultImpl.h */,
+				CCED6B8822A8E00200DE6430 /* WXImgLoaderDefaultImpl.m */,
+				CC16086022ADEB09001686F4 /* FNLoginModule.h */,
+				CC16086122ADEB09001686F4 /* FNLoginModule.m */,
+				CC9E9B7922B48F580009BBDF /* FNNetworkHandler.h */,
+				CC9E9B7A22B48F580009BBDF /* FNNetworkHandler.m */,
+				CC9E9B7C22B4D7EE0009BBDF /* FNThreadSafeDictionary.h */,
+				CC9E9B7D22B4D7EE0009BBDF /* FNThreadSafeDictionary.m */,
+				CCF27F9F22B890DB00B52340 /* FNAppInfoModule.h */,
+				CCF27FA022B890DB00B52340 /* FNAppInfoModule.m */,
+				CCEA8F1922B9C063006C8242 /* FNRouteModule.h */,
+				CCEA8F1A22B9C063006C8242 /* FNRouteModule.m */,
+			);
+			path = Weex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC85542322A8A6580069A148 /* FN_iOS_Weex_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC85543A22A8A65A0069A148 /* Build configuration list for PBXNativeTarget "FN_iOS_Weex_Demo" */;
+			buildPhases = (
+				314C2A9F4B6384BFB692ED05 /* [CP] Check Pods Manifest.lock */,
+				CC85542022A8A6580069A148 /* Sources */,
+				CC85542122A8A6580069A148 /* Frameworks */,
+				CC85542222A8A6580069A148 /* Resources */,
+				C35974013CACD4570790A551 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FN_iOS_Weex_Demo;
+			productName = FN_iOS_Weex_Demo;
+			productReference = CC85542422A8A6580069A148 /* FN_iOS_Weex_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC85541C22A8A6580069A148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = feiniu;
+				TargetAttributes = {
+					CC85542322A8A6580069A148 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CC85541F22A8A6580069A148 /* Build configuration list for PBXProject "FN_iOS_Weex_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC85541B22A8A6580069A148;
+			productRefGroup = CC85542522A8A6580069A148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC85542322A8A6580069A148 /* FN_iOS_Weex_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC85542222A8A6580069A148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85544C22A8AC2F0069A148 /* Main.storyboard in Resources */,
+				CCEA8F2022B9C598006C8242 /* FNWebViewController.xib in Resources */,
+				CC476A1822AE932600C492F6 /* parking_TyingCard.png in Resources */,
+				CC85544A22A8AC2F0069A148 /* Assets.xcassets in Resources */,
+				CC16086722ADEE3B001686F4 /* FNLoginViewController.xib in Resources */,
+				CCED6B9222A8E1FE00DE6430 /* WeexViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		314C2A9F4B6384BFB692ED05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FN_iOS_Weex_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35974013CACD4570790A551 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FN_iOS_Weex_Demo/Pods-FN_iOS_Weex_Demo-resources.sh",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/pre-build/weex-main-jsfm.js",
+				"${PODS_ROOT}/WeexSDK/pre-build/weex-polyfill.js",
+				"${PODS_ROOT}/WeexSDK/pre-build/weex-rax-api.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-main-jsfm.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-polyfill.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/weex-rax-api.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FN_iOS_Weex_Demo/Pods-FN_iOS_Weex_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC85542022A8A6580069A148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC85545222A8AC970069A148 /* ViewController.m in Sources */,
+				CCED6B8C22A8E00200DE6430 /* WeexSDKManager.m in Sources */,
+				CCEA8F1B22B9C063006C8242 /* FNRouteModule.m in Sources */,
+				CC16086622ADEE3B001686F4 /* FNLoginViewController.m in Sources */,
+				CCF27FA122B890DB00B52340 /* FNAppInfoModule.m in Sources */,
+				CCEA8F1F22B9C598006C8242 /* FNWebViewController.m in Sources */,
+				CC85545522A8ACA60069A148 /* RootTableViewCell.m in Sources */,
+				CCED6B8B22A8E00200DE6430 /* WXImgLoaderDefaultImpl.m in Sources */,
+				CCF27FA722B893BF00B52340 /* FNUser.m in Sources */,
+				CC9E9B7B22B48F580009BBDF /* FNNetworkHandler.m in Sources */,
+				CC9E9B7E22B4D7EE0009BBDF /* FNThreadSafeDictionary.m in Sources */,
+				CC85544922A8AC2F0069A148 /* AppDelegate.m in Sources */,
+				CCED6B9122A8E1FE00DE6430 /* WeexViewController.m in Sources */,
+				CCF27FA422B892EC00B52340 /* FNUserInfo.m in Sources */,
+				CC16086222ADEB09001686F4 /* FNLoginModule.m in Sources */,
+				CCB735B822AE8E080026E791 /* FNCustomComponent.m in Sources */,
+				CC85544D22A8AC2F0069A148 /* main.m in Sources */,
+				CCB735B522AE8D1F0026E791 /* FNCustomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC85544522A8AC2F0069A148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC85544622A8AC2F0069A148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC85543822A8A65A0069A148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC85543922A8A65A0069A148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC85543B22A8A65A0069A148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F4637971757278CEDEC68F /* Pods-FN_iOS_Weex_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CFK9592XDR;
+				INFOPLIST_FILE = "$(SRCROOT)/FN_iOS_Weex_Demo/Resource/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feiniu.FN-iOS-Weex-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = FN_Development_Wild_Profile;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC85543C22A8A65A0069A148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33A4A2659F70812DC8A22BC /* Pods-FN_iOS_Weex_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/FN_iOS_Weex_Demo/Resource/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feiniu.FN-iOS-Weex-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC85541F22A8A6580069A148 /* Build configuration list for PBXProject "FN_iOS_Weex_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85543822A8A65A0069A148 /* Debug */,
+				CC85543922A8A65A0069A148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC85543A22A8A65A0069A148 /* Build configuration list for PBXNativeTarget "FN_iOS_Weex_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC85543B22A8A65A0069A148 /* Debug */,
+				CC85543C22A8A65A0069A148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC85541C22A8A6580069A148 /* Project object */;
+}
